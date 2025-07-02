@@ -41,8 +41,19 @@ h2 {
 
 .area-codigo {
     background: #051526;
-    height:calc(100% -80px);
+    height:calc(100% - 80px);
     border-radius: 9px;
     padding: 20px;
     color: #ffff;
+    font-size: 14px;
+}
+
+.area-resultado {
+    background: #051526;
+     height:calc(100% - 80px);
+    border-radius: 9px;
+    padding: 20px;
+    color: #ffff;
+    font-size: 14px;
+
 }
