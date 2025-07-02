@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
@@ -39,5 +37,12 @@ h2 {
     border-radius: 8px;
     padding: 30px;
     height: 400px;
+}
 
+.area-codigo {
+    background: #051526;
+    height:calc(100% -80px);
+    border-radius: 9px;
+    padding: 20px;
+    color: #ffff;
 }
