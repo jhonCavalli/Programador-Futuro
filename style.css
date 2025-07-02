@@ -21,7 +21,11 @@ body {
     margin: 0 auto;
 }
 
-main
+main {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 20px;
+}
 
 h2 {
     color: #051526;
