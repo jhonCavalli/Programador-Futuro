@@ -1,8 +1,8 @@
 
 /*
  
-[]  descobrir quando no botao foi clicado
-[]  pegar o que foi escrito m input
+[x]  descobrir quando no botao foi clicado
+[x]  pegar o que foi escrito m input
 []  enviar para o n8n
 [] recber o que o n8n respondeu  
 [] colocar na tela o que ele respondeu
@@ -15,8 +15,10 @@
 
 function clicarNoBotao() {
     let textoInput = document.querySelector(".input-animacao").value
-    let
-    //
+    //let button = document.querySelector(".botao-magico")
+   // button.disablet = true;
+
+    // enviar para IA
 }
 
 
