@@ -57,3 +57,12 @@ h2 {
     justify-content: center;
     color: #999;
 }
+
+.sessao-input {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
