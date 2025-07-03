@@ -80,7 +80,6 @@ input {
     margin: 10px;
     padding: 15px 20px;
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 100% auto;
     color: white;            
@@ -100,7 +99,7 @@ input {
 
 .botao:active {
     transform: scale(0.9);
-    
+
 }
          
 
