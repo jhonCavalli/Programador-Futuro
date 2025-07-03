@@ -49,11 +49,11 @@ h2 {
 }
 
 .area-resultado {
-    background: #051526;
-     height:calc(100% - 80px);
+    background: #f8f9fa;
+    height:calc(100% - 80px);
     border-radius: 9px;
-    padding: 20px;
-    color: #ffff;
-    font-size: 14px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
 }
