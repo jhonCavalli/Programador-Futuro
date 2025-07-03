@@ -15,8 +15,6 @@
 
 function clicarNoBotao() {
     let textoInput = document.querySelector(".input-animacao").value
-    //let button = document.querySelector(".botao-magico")
-   // button.disablet = true;
 
     // enviar para IA
 }
