@@ -6,7 +6,7 @@
 h1 {
     text-align: center;
     margin-top: 50px;
-    color: #333;
+    color: #ffffff;
     font-size: 36px;
 }
 
@@ -68,27 +68,32 @@ h2 {
 input {
     width: 80%;
     padding: 15px 20px;
-    
+    font-size: 16px;
+    border-radius: 6px;
+    color: #051526;
+    border: 2px solid #94a3ba;
+
 }
 
 .botao {
     background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
     margin: 10px;
-    padding: 15px 45px;
+    padding: 15px 20px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
-    background-size: 200% auto;
+    background-size: 100% auto;
     color: white;            
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
+    cursor: pointer;
 }
            
             
           
 .botao:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; 
     color: #fff;
     text-decoration: none;
 }
