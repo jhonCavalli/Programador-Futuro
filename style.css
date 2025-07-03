@@ -97,6 +97,11 @@ input {
     color: #fff;
     text-decoration: none;
 }
+
+.botao:active {
+    transform: scale(0.9);
+    
+}
          
 
 
