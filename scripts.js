@@ -11,17 +11,18 @@
 
 
 
-let webhook = "https://srcavalli.app.n8n.cloud/webhook-test/animacao-css"
+let webhook = "https://srcavalli.app.n8n.cloud/webhook/animacao-css"
 
-function clicarNoBotao() {
+async function clicarNoBotao() {
     let textoInput = document.querySelector(".input-animacao").value
 
-    let resposta = fetch(webhook, {
+    let resposta = await fetch(webhook, {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ pergunta: textoInput })
     })
 
+    console.log(resposta)
     // enviar para IA
 }
 
