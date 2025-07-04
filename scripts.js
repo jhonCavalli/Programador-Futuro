@@ -24,7 +24,9 @@ async function clicarNoBotao() {
 
     let resultado = await resposta.json()
 
-    console.log(resultado)
+    let info = JSON.parse(resultado.resposta)
+
+    console.log(info)
 
     // enviar para IA
 }
