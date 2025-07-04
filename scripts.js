@@ -11,7 +11,7 @@
 
 
 
-let webhook = "https://srcavalli.app.n8n.cloud/webhook-test/animacao-css"
+let webhook = "https://srcavalli.app.n8n.cloud/webhook/animacao-css"
 
 async function clicarNoBotao() {
     let textoInput = document.querySelector(".input-animacao").value
@@ -31,8 +31,7 @@ async function clicarNoBotao() {
     codigo.innerHTML = info.code
     areaResultado.innerHTML = info.preview
 
-
-    document.head.insertAdjacentHTML('beforeend', "<style>"+info.style +"</style>")
+    document.head.insertAdjacentHTML('beforeend', "<style>"+ info.style +"</style>")
     // enviar para IA
 }
 
