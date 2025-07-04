@@ -31,6 +31,8 @@ async function clicarNoBotao() {
     codigo.innerHTML = info.code
     areaResultado.innerHTML = info.preview
 
+
+    document.head.insertAdjacentHTML('beforeend', "<style>"+info.style +"</style>")
     // enviar para IA
 }
 
